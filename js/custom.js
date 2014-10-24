@@ -7,7 +7,7 @@ function hideActive(targetDiv){
 
 $(document).ready(function(){
 
-	// CYCLE2 - IMAGE SIDESHOW
+	// CYCLE2 - IMAGE SLIDESHOW
 	$('.slideshow').cycle({
 		speed: 500,
 	});
