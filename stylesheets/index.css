@@ -1,0 +1,65 @@
+/*
+* Custom CSS additions by Marc Micuta December 2013
+*/
+
+/* Home Page */
+/*
+	.home_container {
+		position: relative;
+		width: 478px;
+		margin: 0 auto;
+	}
+*/
+
+
+/* LAYOUT BLOCKS */
+
+	.home_block {
+		width: 250px;
+	}
+
+	.link {
+	}
+
+	.spacer {
+		width: 15px;
+		height: 20px;
+	}
+
+/* TEXT FORMATTING BLOCKS */
+
+	.left-align {
+		text-align: left;
+	}
+
+	.center-align {
+		text-align: center;
+	}
+
+	.right-align {
+		text-align: right;
+	}
+
+	.justify {
+		text-align: justify;
+	}
+
+	.pos-relative {
+		position: relative;
+	}
+
+	.float-left {
+		float: left;
+	}
+
+	.float-right {
+		float: right;
+	}
+
+	.kern1 {
+		letter-spacing: .008em;
+	}
+
+	.kern2 {
+		letter-spacing: -.001em;
+	}

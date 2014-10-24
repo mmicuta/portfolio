@@ -1,0 +1,236 @@
+/*
+* Custom CSS additions by Marc Micuta December 2013
+*/
+
+/* LAYOUT BLOCKS */
+
+	.link {
+	}
+
+	.spacer {
+		width: 15px;
+		height: 20px;
+	}
+
+	.spacer2 {
+		width: 100%;
+		height: 50px;
+	}
+
+	.spacer3 {
+		width: 100%;
+		height: 10px;
+	}
+
+	.spacer4 {
+		width: 10px;
+		height: 30px;
+	}
+
+	.spacer5 {
+		width: 100%;
+		height: 45px;
+	}
+
+	.spacer6 {
+		width: 100%;
+		height: 280px;
+	}
+
+	.spacer_thumb {
+		width: 5px;
+		height: 10px;
+	}
+
+	.footer {
+		width: 100%;
+		height: 200px;
+	}
+
+	.border-check {
+		border-style: solid;
+		border-width: 1px;
+	}
+
+	.borderbottom {
+		border-bottom-style: solid;
+		border-width: 1px;
+	}
+
+	.bordertop {
+		border-top-style: solid;
+		border-width: 1px;
+	}
+
+/* TEXT FORMATTING BLOCKS */
+
+	.left-align {
+		text-align: left;
+	}
+
+	.center-align {
+		text-align: center;
+	}
+
+	.right-align {
+		text-align: right;
+	}
+
+	.justify {
+		text-align: justify;
+	}
+
+	.pos-relative {
+		position: relative;
+	}
+
+	.float-left {
+		float: left;
+	}
+
+	.float-right {
+		float: right;
+	}
+
+	.clear-left {
+		clear: left;
+	}
+
+	.kern1 {
+		letter-spacing: .008em;
+	}
+
+	.kern2 {
+		letter-spacing: -.001em;
+	}
+
+	.kern3 {
+		letter-spacing: .07em;
+	}
+
+	.kern4 {
+		letter-spacing: .06em;
+	}
+
+	.bold {
+		/*font-family: "clear_sans_mediumregular", serif;*/
+		font-weight: 700;
+	}
+
+	.regular {
+		font-family: "clear_sans_lightregular", serif;
+		font-weight: normal;
+	}
+
+	.underline {
+		text-decoration: underline;
+	}
+
+	.bebas {
+		font-family: "bebas_neueregular", serif;
+		font-weight: normal;
+	}
+
+	.notextdeco, .notextdeco:hover, .notextdeco:focus {
+		text-decoration: none;
+	}
+
+/* IMAGE FORMATTING BLOCKS */
+
+	.navicons a img {
+		padding-top: 20px;
+		/*opacity:0.5; 
+		filter:alpha(opacity=50);  For IE8 and earlier */
+	}
+
+	.slideshow {
+		padding-bottom: 5px;
+	}
+
+	.slideshow img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.tertiarySlide {
+		width: 100%;
+		height: auto;
+	}
+
+
+	.slideSelect {
+		padding-bottom: 5px;
+	}
+
+	.contentSlide {
+		width: 100%;
+		height: auto;
+	}
+	
+	.primaryContentSlideShow {
+		width: 50%;
+		height: auto;
+	}
+	
+	.primarySlide {
+		width: 100%;
+		height: auto;
+	}
+	
+	.passivePrimary {
+		opacity:0.2; 
+		filter:alpha(opacity=20); /* For IE8 and earlier */
+	}
+	
+	/* IMAGE SIZES */
+	
+	.contentImage {
+		width: 100%;
+		height: auto;
+	}
+	
+	/* IMAGE ANNOTATION */
+	
+	.tertiarySlide img {
+		z-index: 0;
+	}
+	
+	.annotation {
+		display: block; 
+		position: absolute; 
+		z-index: 1; 
+		width: 100%; 
+		height: 60px;
+		bottom: 0px;
+		padding: 5px;
+		overflow: hidden;
+		background-color: white;
+		opacity: 0.0;
+		filter: alpha(opacity=0);
+		background: rgba(255,255,255,0.8);
+	}
+	
+	.tertiarySlide:hover > .annotation {
+		opacity: 1.0;
+		filter: alpha(opacity=1);
+	}
+		
+	.paused {
+		display: block; 
+		position: absolute; 
+		z-index: 1;
+		top: 10px;
+		right: 10px;
+		width: 20px;
+		height: 20px;
+		overflow: hidden;
+		background-color: white;
+		opacity: 0.0;
+		filter: alpha(opacity=0);
+		background: rgba(255,255,255,0.8);
+	}
+	
+	.tertiarySlide:hover > .paused {
+		opacity: 1.0;
+		filter: alpha(opacity=1);
+	}
